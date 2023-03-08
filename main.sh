@@ -98,14 +98,29 @@ for((i=0; i<${#users[@]}; i++)); do
         echo $user$MAIN_WORD
         echo $USER$MAIN_WORD
         echo $User$MAIN_WORD
+
+        echo $user@$MAIN_WORD
+        echo $USER@$MAIN_WORD
+        echo $User@$MAIN_WORD
+
         echo $MAIN_WORD$user
         echo $MAIN_WORD$User
         echo $MAIN_WORD$USER
+
         echo $NAME$user
         echo $NAME$User
         echo $NAME$USER
+
+        echo $NAME@$user
+        echo $NAME@$User
+        echo $NAME@$USER
+
         echo $Name$user
         echo $Name$User
         echo $Name$USER
+
+        echo $Name@$user
+        echo $Name@$User
+        echo $Name@$USER
     fi
 done
